@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  background-color: pink;
+  color: white;
+  justify-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 20px;
+}
+.box {
+  background-color: red;
+  text-align: center;
+  padding: 30px;
+}
+.box1 {
+  grid-area: 1/1/1/5;
+}
+.box4 {
+  grid-area: 2/4/4/5;
+}
+.box5 {
+  grid-area: 3/1/4/4;
+}
+.box6 {
+  grid-area: 4/1/5/5;
+}
